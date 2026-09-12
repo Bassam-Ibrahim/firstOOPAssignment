@@ -83,8 +83,8 @@ namespace FifthAssignment
             Console.WriteLine($"Tracking Code: {TrackingCode}");
             Console.WriteLine($"Description: {Description}");
             Console.WriteLine($"Weight: {Weight} kg");
-            Console.WriteLine($"Delivery Fee: ${DeliveryFee}");
-            Console.WriteLine($"Estimated Total Cost: ${EstimatedDeliveryTCost}");
+            Console.WriteLine($"Delivery Fee: {DeliveryFee} L.E.");
+            Console.WriteLine($"Estimated Total Cost: {EstimatedDeliveryTCost} L.E.");
             Console.WriteLine($"Destination: {Destination.GetFullAddress()}");
         }
 
